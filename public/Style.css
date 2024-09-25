@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: courier;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #buttonContainer {
+    text-align: center;
+    margin: 10%;
+  }
+  
+  #generate {
+    height: 3em;
+    padding: 8px 20px;
+    font-family: monaco;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  #generate:hover {
+    background-color: #0056b3;
+  }
+
+  
+  pre {
+    border-style: solid;
+    height: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+  }
