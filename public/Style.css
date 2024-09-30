@@ -16,7 +16,14 @@ h1 {
   
   #buttonContainer {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
+    
+  }
+
+  #displayContainer{
+    width: 60%;
+    margin: 10px auto;
+    padding-left: 20px;
   }
   
   #generate {
